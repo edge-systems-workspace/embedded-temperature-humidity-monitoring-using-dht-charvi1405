@@ -17,33 +17,14 @@
 DHT dht(DHTPIN2, DHTTYPE);
 
 
-
-
-// TODO 1:
-// Define the DHT data pin (Use digital pin 2)
-
-// TODO 2:
-// Define the DHT sensor type (DHT11)
-
-// TODO 3:
-// Create a DHT object using the defined pin and sensor type
-
 void setup() {
-
-    // TODO 4:
-    // Initialize Serial communication (9600 baud rate)
-
-    // TODO 5:
-    // Initialize the DHT sensor
-
-    // TODO 6:
-    // Print a system initialization message
+    Serial.begin(9600);
+    dht.begin();
 }
 
 void loop() {
+    float humidity=dht.readHumidity();
 
-    // TODO 7:
-    // Read humidity value from sensor
 
     // TODO 8:
     // Read temperature value from sensor
