@@ -1,9 +1,9 @@
 #include <Arduino.h>
 /**
- * @file main.ino
+ * @file main.cpp
  * @brief Embedded Temperature and Humidity Monitoring using DHT11
- * @author YOUR_NAME
- * @date YYYY-MM-DD
+ * @author Charvi Mittal
+ * @date 2026-02-15
  *
  * @details
  * This program reads environmental data from the DHT11 sensor
@@ -12,6 +12,8 @@
  */
 
 #include <DHT.h>
+#define DHTPIN2
+
 
 // TODO 1:
 // Define the DHT data pin (Use digital pin 2)
