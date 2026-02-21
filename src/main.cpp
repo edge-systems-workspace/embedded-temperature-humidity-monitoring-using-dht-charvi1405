@@ -13,6 +13,8 @@
 
 #include <DHT.h>
 #define DHTPIN2
+#define DHTTYPE DHT11
+
 
 
 // TODO 1:
